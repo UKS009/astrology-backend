@@ -7,8 +7,9 @@ from geopy.geocoders import Nominatim
 # Apni Google AI Studio wali API Key yahan paste karein
 API_KEY = "AIzaSyD1dIJValIcbBhuKDljpQRj6lxn0AsbN-g"
 
-# 2026 ke hisaab se sabse stable endpoint
-API_URL = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key={API_KEY}"
+# Purani line: API_URL = f".../gemini-1.5-flash:generateContent?..."
+# Nayi line ye try karein (jo standard hai):
+API_URL = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent?key={API_KEY}"
 
 st.set_page_config(page_title="Vedic AI Astrologer", layout="wide", page_icon="✨")
 
