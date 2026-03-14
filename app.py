@@ -4,7 +4,7 @@ from geopy.geocoders import Nominatim
 
 # --- CONFIGURATION ---
 # Note: Security ke liye apni key ko baad mein Streamlit Secrets mein daalna
-API_KEY = "AIzaSyAjmm39t-FnC4Moq8gC2y47woxEFon0Uuw"
+API_KEY = "AIzaSyD1dIJValIcbBhuKDljpQRj6lxn0AsbN-g"
 genai.configure(api_key=API_KEY)
 
 # Use the latest stable model name
