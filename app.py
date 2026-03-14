@@ -3,7 +3,7 @@ import google.generativeai as genai
 from geopy.geocoders import Nominatim
 
 # --- CONFIGURATION ---
-API_KEY = "PASTE_YOUR_GEMINI_API_KEY_HERE"
+API_KEY = "AIzaSyAjmm39t-FnC4Moq8gC2y47woxEFon0Uuw"
 genai.configure(api_key=API_KEY)
 model = genai.GenerativeModel('gemini-1.5-flash')
 
