@@ -8,7 +8,7 @@ API_KEY = "AIzaSyD1dIJValIcbBhuKDljpQRj6lxn0AsbN-g"
 genai.configure(api_key=API_KEY)
 
 # Use the latest stable model name
-model = genai.GenerativeModel(model_name='gemini-1.5-flash')
+model = genai.GenerativeModel('gemini-1.5-flash')
 
 st.set_page_config(page_title="Vedic AI Astrologer", layout="wide")
 
