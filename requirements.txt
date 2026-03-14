@@ -1,4 +1,5 @@
 streamlit
 google-generativeai
-flatlib
+flatlib==0.2.3
 geopy
+pyswisseph==2.8.0.post1
