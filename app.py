@@ -8,7 +8,6 @@ API_KEY = "AIzaSyD1dIJValIcbBhuKDljpQRj6lxn0AsbN-g"
 # Version error se bachne ke liye ye setup
 try:
     genai.configure(api_key=API_KEY)
-    # Latest 2026 stable model check
     model = genai.GenerativeModel('gemini-1.5-flash')
 except Exception as e:
     st.error(f"Setup Error: {e}")
