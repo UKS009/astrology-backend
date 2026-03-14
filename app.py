@@ -5,7 +5,7 @@ from geopy.geocoders import Nominatim
 # --- CONFIGURATION ---
 API_KEY = "AIzaSyAjmm39t-FnC4Moq8gC2y47woxEFon0Uuw"
 genai.configure(api_key=API_KEY)
-model = genai.GenerativeModel('gemini-1.5-flash')
+model = genai.GenerativeModel(model_name='gemini-1.5-flash-latest')
 
 st.set_page_config(page_title="Vedic AI Astrologer", layout="wide")
 
